@@ -1,0 +1,135 @@
+/* General Styles */
+html {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp10245689.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 110%;
+    background-position: 50%;
+    background-color: black;
+  }
+  
+  /* Header Styles */
+  #header {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #links{
+    display: flex;
+    width: 100%;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form Styles */
+  form {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  form button {
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Question Styles */
+  h2 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  p {
+    text-align: center; 
+    width: 100%;
+  }
+  
+  button {
+    color: black;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c4c4c4;
+  }
+  
+  .artwork {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .artwork img {
+    max-width: 30%;
+    border-radius: 10px;
+  }
+  
+  .artwork p {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  form{
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    bottom: 5%;
+  }
+  button{
+    margin-left: 20px;
+  }
+  #questions{
+    bottom: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  #Results{
+    bottom: 5%;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-size: 1.5svw;
+    transform: translateX(-50%);
+  }
