@@ -22,10 +22,9 @@ export default function UserForm() {
   return (
     <form onSubmit={handleSubmit}>
         <div id='nameInput'>
-          <label htmlFor='inputName'>What is your Name?</label>
-          <input type='text' name='inputName' id='inputName' value={inputName} onChange={handleChange}></input>
+          <input type='text' name='inputName' id='inputName' value={inputName} onChange={handleChange} placeholder='What is your Name?'></input>
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" id='submit'>Submit</button>
     </form>
   );
 }

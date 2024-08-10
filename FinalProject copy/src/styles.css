@@ -114,9 +114,27 @@ html {
     transform: translateX(-50%);
     display: flex;
     bottom: 5%;
+    color: white;
   }
-  button{
-    margin-left: 20px;
+  #submit{
+    margin-left: 5px;
+    height: 40px;
+    margin-top: auto;
+    border: none;
+    border-radius: 10px 50px 50px 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: white;
+    font-size: 1.5svw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    
+  }
+  #inputName{
+    height: 20px;
+    border: none;
+    border-radius: 50px 10px 10px 50px;
   }
   #questions{
     bottom: 5%;
